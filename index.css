@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/pexels-johannes-plenio-1118873.jpg);
+    background-size: cover;
+}
+
+.container{
+    background-image: url("/img/pexels-pixabay-53459.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 15rem;
+    height: 32.5rem;
+    border: 2px solid white;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 7px 7px 5px 0px white;
+}
+
+.inputTemp{
+    margin: 1rem auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex: .4;
+}
+
+.search submit{
+    display: flex;
+}
+
+.search{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: .5rem;
+    border: none;
+    text-align: center;
+    background-color: rgba(22, 17, 17, 0.8);
+}
+
+.search:focus{
+    outline: none;
+}
+
+.inputTemp__number{
+    display: flex;
+    align-items: center;
+}
+
+.inputTemp__celcius{
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    font-size: 4em;
+}
+
+.inputTemp__symbol{
+    font-size: 3em;
+    color: black;
+}
+
+.locacion{
+    flex: .5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.locacion-date{
+    margin: 1.5rem;
+    font-weight: bolder;
+}
+
+.inputTemp__description, .locacion-ciudad{
+    font-size: 1.3rem;
+    font-weight: bolder;
+    color: black;
+}
+
+.weather{
+    background-color: black;
+    color: white;
+    flex: .1;
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-end-end-radius: 15px;
+    border-end-start-radius: 15px;
+}
+
+.weather_min > span{
+    font-size: 2rem;
+    color: blue;
+}
+
+.weather_max > span{
+    font-size: 2rem;
+    color: red;
+}
+
+
+

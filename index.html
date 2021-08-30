@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Weather app</title>
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="inputTemp">
+            <form class="search__submit" id="search__submit">
+                <input type="text" class="search" id="search__input" placeholder="Locación">
+                <button type="submit"></button>
+            </form>
+            <div class="inputTemp__number">
+                <div class="inputTemp__celcius" id="degreeNumber">15</div>
+                <div class="inputTemp__symbol">°C</div>
+                <div class="weatherIcon"></div>
+            </div>
+            <div class="inputTemp__description" id="description">nuves</div>
+        </div>
+        <div class="locacion">
+            <div class="locacion-ciudad" id="timezone">london</div>
+            <div class="locacion-date" id="date">fecha</div>
+        </div>
+        <div class="weather">
+            <div class="weather_min"><small>min:</small><span id="min">12</span>°C</div>
+            <div class="weather_max"><small>max:</small><span id="max">20</span>°C</div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
